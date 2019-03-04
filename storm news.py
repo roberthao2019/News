@@ -32,5 +32,6 @@ for fn in glob.glob("E:/風傳媒_data/風傳媒_data/newsfolder/*.json"):
         print("  Default Mode: " + "/ ".join(words))
         words = jieba.cut_for_search(news_content)
         print("  Search Engine Mode: " + ", ".join(words))
+        
 
        
