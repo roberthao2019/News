@@ -35,4 +35,3 @@ for fn in glob.glob("E:/apple_json-20190227T122726Z-001/apple_json/apple_news/*.
 
         
         
-        
