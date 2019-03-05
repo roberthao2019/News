@@ -5,6 +5,7 @@ import jieba.analyse
 import importlib
 import glob
 
+#打開storm news所有檔案
 for fn in glob.glob("E:/風傳媒_data/風傳媒_data/newsfolder/*.json"):
     print("現在處理檔案:", fn)
     f = open(fn, "r", encoding="utf-8")
