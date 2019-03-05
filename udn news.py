@@ -5,6 +5,7 @@ import jieba.analyse
 import importlib
 import glob
 
+#打開udn news所有檔案
 for fn in glob.glob("E:/udn_json-20190301T093011Z-001/udn_json/news/*.json"):
     print("現在處理檔案:", fn)
     f = open(fn, "r", encoding="utf-8")
