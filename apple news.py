@@ -5,6 +5,7 @@ import jieba.analyse
 import importlib
 import glob
 
+#打開apple news所有檔案
 for fn in glob.glob("E:/apple_json-20190227T122726Z-001/apple_json/apple_news/*.json"):
     print("現在處理檔案:", fn)
     f = open(fn, "r", encoding="utf-8")
