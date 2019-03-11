@@ -1,5 +1,4 @@
 
-
 import json
 import jieba
 import jieba.analyse
@@ -74,3 +73,5 @@ except:
 finally:
     cursor.close()
     db.close()
+
+    
