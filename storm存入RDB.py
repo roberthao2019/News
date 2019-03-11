@@ -72,4 +72,6 @@ except:
     db.rollback()
 finally:
     cursor.close()
+    
+    
     db.close()
